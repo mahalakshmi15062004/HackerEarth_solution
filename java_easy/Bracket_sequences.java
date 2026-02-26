@@ -4,7 +4,7 @@ public class Bracket_sequences {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        // Check if there is input
+      
         if (!sc.hasNext()) {
             return;
         }
@@ -14,7 +14,7 @@ public class Bracket_sequences {
         
         int currentBalance = 0;
         int minBalance = 0;
-        int count = 1; // Initialized to 1 to account for the starting prefix sum of 0
+        int count = 1; 
 
         for (int i = 0; i < n; i++) {
             if (s.charAt(i) == '(') {
