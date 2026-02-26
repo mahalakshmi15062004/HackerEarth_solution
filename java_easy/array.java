@@ -35,7 +35,7 @@ public class Array {
       
 
         if (countA == countB) {
-            // If the number of -1s is the same, they cancel out
+         
             if (sumA == sumB) {
                 System.out.println("Infinite");
             } else {
@@ -56,7 +56,7 @@ public class Array {
                     System.out.println(0);
                 }
             } else {
-                // Division results in a decimal, not a whole integer
+           
                 System.out.println(0);
             }
         }
